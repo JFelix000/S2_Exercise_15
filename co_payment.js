@@ -43,4 +43,43 @@
       Returns true of idNum satisfies the Luhn Algorithm
 
 */
+window.addEventListener("load", function () {
+      // retrieve the field value pairs from the URL search
+      var formData = location.search.slice(1);
+});
 
+function runSubmit() {
+
+}
+
+function validateCVC() {
+
+}
+
+function validateMonth() {
+
+}
+
+function validateYear() {
+
+}
+
+function validateNumber() {
+
+}
+
+function validateCredit() {
+
+}
+
+function validateName() {
+
+}
+
+function sumDigits(numStr) {
+
+}
+
+function luhn(idNum) {
+
+}
