@@ -64,7 +64,7 @@ function calcOrder() {
       orderForm.elements.initialCost.value = formatUSCurrency(initialCost);
 
       // retrieve the cost of the user's protection plan
-      var pCost = document.querySelector('input[name="protection"]:checked').value;
+      var pCost = document.querySelector('input[name="protection"]:checked').value * quantity;
       orderForm.elements.protectionCost.value = formatNumber(pCost, 2);
 //
       //calculate the order subtotal
